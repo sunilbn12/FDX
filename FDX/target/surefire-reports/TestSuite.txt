@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 8, Errors: 0, Skipped: 4, Time elapsed: 1.288 s <<< FAILURE! - in TestSuite
+openApplication(com.FDX.Tests.Table1)  Time elapsed: 1.06 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated openApplication.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+close(com.FDX.Tests.Table1)  Time elapsed: 1.061 s  <<< FAILURE!
+java.lang.NullPointerException
+
+openApplication(com.FDX.Tests.Test1)  Time elapsed: 1.061 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated openApplication.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+close(com.FDX.Tests.Test1)  Time elapsed: 1.062 s  <<< FAILURE!
+java.lang.NullPointerException
+
+openApplication(com.FDX.Tests.Table1)  Time elapsed: 1.115 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated openApplication.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+close(com.FDX.Tests.Table1)  Time elapsed: 1.115 s  <<< FAILURE!
+java.lang.NullPointerException
+
+openApplication(com.FDX.Tests.Test1)  Time elapsed: 1.117 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @BeforeMethod annotated openApplication.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+close(com.FDX.Tests.Test1)  Time elapsed: 1.118 s  <<< FAILURE!
+java.lang.NullPointerException
+

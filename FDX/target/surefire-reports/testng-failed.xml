@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="ChromeTests(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.FDX.Tests.Table1">
+        <methods>
+          <include name="openApplication"/>
+          <include name="close"/>
+          <include name="m1"/>
+          <include name="Setpath"/>
+        </methods>
+      </class> <!-- com.FDX.Tests.Table1 -->
+      <class name="com.FDX.Tests.Test1">
+        <methods>
+          <include name="openApplication"/>
+          <include name="m1"/>
+          <include name="close"/>
+          <include name="Setpath"/>
+        </methods>
+      </class> <!-- com.FDX.Tests.Test1 -->
+    </classes>
+  </test> <!-- ChromeTests(failed) -->
+  <test thread-count="5" verbose="0" name="FirefoxTests(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="com.FDX.Tests.Table1">
+        <methods>
+          <include name="openApplication"/>
+          <include name="close"/>
+          <include name="m1"/>
+          <include name="Setpath"/>
+        </methods>
+      </class> <!-- com.FDX.Tests.Table1 -->
+      <class name="com.FDX.Tests.Test1">
+        <methods>
+          <include name="openApplication"/>
+          <include name="m1"/>
+          <include name="close"/>
+          <include name="Setpath"/>
+        </methods>
+      </class> <!-- com.FDX.Tests.Test1 -->
+    </classes>
+  </test> <!-- FirefoxTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
